@@ -120,3 +120,23 @@ classDiagram
         
     }
 ```
+
+
+## Order
+
+```mermaid
+flowchart
+
+start --> create["Create Order"]
+create --> add["Add Items"]
+add --> checkout["Checkout"] 
+add --> add
+checkout --> payment["Payment"]
+payment --> confirm["Confirm delivery"]
+confirm --> close["Close order"]
+create --> cancel["Cancel order"]
+add --> cancel
+checkout --> cancel
+cancel --> close
+
+```
