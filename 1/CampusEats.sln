@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusEats.Core", "CampusEats.Core\CampusEats.Core.csproj", "{C1601273-88D3-41FB-BA61-DFFE853B873C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusEats.Tests", "CampusEats.Tests\CampusEats.Tests.csproj", "{88FBAE8D-3CBC-49E0-985E-7E15737FD180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1601273-88D3-41FB-BA61-DFFE853B873C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1601273-88D3-41FB-BA61-DFFE853B873C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1601273-88D3-41FB-BA61-DFFE853B873C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1601273-88D3-41FB-BA61-DFFE853B873C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FBAE8D-3CBC-49E0-985E-7E15737FD180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FBAE8D-3CBC-49E0-985E-7E15737FD180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FBAE8D-3CBC-49E0-985E-7E15737FD180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FBAE8D-3CBC-49E0-985E-7E15737FD180}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

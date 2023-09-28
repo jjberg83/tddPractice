@@ -140,3 +140,21 @@ checkout --> cancel
 cancel --> close
 
 ```
+
+## Kommandoer for å starte ny .sln
+
+Gå til mappen man ønsker å starte ny solution i
+
+dotnet new sln -n CampusEats
+dotnet new classlib -n CampusEats.Core
+dotnet new xunit -n CampusEats.Tests
+dotnet sln add ./CampusEats.Core/
+dotnet sln add ./CampusEats.Core/CampusEats.Core.csproj
+dotnet sln add ./CampusEats.Tests/CampusEats.Tests.csproj
+cd ./CampusEats.Tests/
+dotnet add reference ../CampusEats.Core/CampusEats.Core.csproj
+cd ..
+code .
+
+## Markdown preview 
+shift + cmd + v
